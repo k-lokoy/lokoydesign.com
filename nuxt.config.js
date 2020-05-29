@@ -28,13 +28,14 @@ export default {
     ]
   },
 
-  buildDir: 'docs',
-
-
   loading: { color: '#fff' },
 
   build: {
     extend (config, ctx) {
     }
+  },
+
+  generate: {
+    dir: 'docs'
   }
 }
