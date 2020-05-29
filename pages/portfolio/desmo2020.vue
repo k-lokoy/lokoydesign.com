@@ -52,34 +52,3 @@
     ])
   }
 </script>
-
-<style scoped>
-  .screenshots {
-    display: grid;
-    grid-gap: 16px;
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    vertical-align: top;
-  }
-
-  @media (min-width: 1200px) {
-    .screenshots {
-      grid-template-columns: 1fr 1fr;
-
-      > * {
-        grid-column: 1 / 3;
-      }
-    }
-
-    #desmo2020-screenshot-002 {
-      grid-column: 1 / 2;
-    }
-
-    #desmo2020-screenshot-003 {
-      grid-column: 2 / 3;
-    }
-  }
-</style>
