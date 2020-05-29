@@ -13,8 +13,8 @@
     <p v-if="language == 'no'">Dette er et litle puslespill laged med HTML5 canvas.</p>
     <p v-else>This is a small jigsaw game made with the HTML5 canvas.</p>
 
-    <p v-if="language == 'no'">Prøv det her <b><a href="https://lokoydesign.com/Jigsaw/" target="_blank">https://lokoydesign.com/Jigsaw/</a></b></p>
-    <p v-else>Try it out over at <b><a href="https://lokoydesign.com/Jigsaw/" target="_blank">https://lokoydesign.com/Jigsaw/</a></b></p>
+    <p v-if="language == 'no'">Prøv det her <b><a href="https://lokoydesign.github.io/Jigsaw/" target="_blank">https://lokoydesign.github.io/Jigsaw/</a></b></p>
+    <p v-else>Try it out over at <b><a href="https://lokoydesign.github.io/Jigsaw/" target="_blank">https://lokoydesign.github.io/Jigsaw/</a></b></p>
 
     <br />
 
