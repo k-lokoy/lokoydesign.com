@@ -1,6 +1,12 @@
 :root {
   --color-scheme:     #393e45;
   --color-background: #f6f8ff;
+
+  --color-bg:     #f6f8ff;
+  --color-bg-2:   #393e45;
+  --color-text:   #393e45;
+  --color-link:   #393e45;
+  --color-border: #393e45;
   
   --font-family: 'Karla', sans-serif;;
   --font-size: 1rem;
@@ -23,13 +29,55 @@ body {
 }
 
 a {
-  color: var(--color-scheme);
+  color: var(--color-link);
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  margin: 0 0 4em;
+  padding: 0;
+  list-style: none;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+/* Bolds */
+b,
+strong {
+  font-weight: 800;
+}
+
+/* Headings */
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
 }
 
 .site-container {
@@ -71,4 +119,30 @@ img {
 .site-footer {
   margin-block-start: 5rem;
   text-align: center;
+}
+
+.cv {
+}
+
+.list * {
+  margin: 0;
+  padding: 0;
+}
+
+.list > * + * {
+  margin-top: 1em;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.tags li {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  padding: .25em .45em;
+  margin: 0 .25em .25em 0;
+  font-size: .7rem;
 }
