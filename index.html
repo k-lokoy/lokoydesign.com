@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lokøy Design</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Lokøy Design | UI/UX Design, Programutvikling og Grafisk design.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#393e45">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" type="text/css" href="/style.css">
+
+  <script src="/main.js" defer="defer"></script>
+</head>
+<body class="no-js">
+  <header class="site-header">
+    <div class="site-branding">
+      <img src="/assets/logo.svg" alt="Lokøy Design Logo" class="site-logo"/>
+      <p class="site-title">Lokøy Design</p>
+    </div>
+
+    <nav class="site-nav">
+      <a href="/">Hjem</a>
+      <a href="/#portfolio">Portefølje</a>
+      <a href="/cv">CV</a>
+    </nav>
+
+    <nav class="social-nav">
+      <a href="https://github.com/kniffen"><i class="fab fa-github"></i></a>
+      <a href="https://dribbble.com/Kniffen"><i class="fab fa-dribbble"></i></a>
+      <a href="https://www.linkedin.com/in/kenneth-lok%C3%B8y-918631b8/"><i class="fab fa-linkedin"></i></a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <span class="decorative decorative-one"></span>
+    <span class="decorative decorative-two"></span>
+    <span class="decorative decorative-three"></span>
+    <span class="decorative decorative-four"></span>
+
+    <p>Hei, jeg heter Kenneth og...</p>
+    <h1>Jeg liker å lage ting</h1>
+    <a class="cta" href="/#portfolio">Se Portefølje</a>
+    <a class="cta-alt" href="/cv">CV</a>
+  </section>
+
+  <a id="portfolio"></a>
+  <section class="portfolio">
+    <h2>Portefølje</h2>
+
+    <nav class="portfolio-nav">
+      <form id="portfolio-form">
+        <input type="radio" id="radio-featured" name="portfolio-selector" value="featured" checked="checked">
+        <label for="radio-featured">Fremhevet</label>
+        <input type="radio" id="radio-web" name="portfolio-selector" value="web">
+        <label for="radio-web">Web</label>
+        <input type="radio" id="radio-software" name="portfolio-selector" value="software">
+        <label for="radio-software">Programvare</label>
+        <input type="radio" id="radio-art" name="portfolio-selector" value="art">
+        <label for="radio-art">Illustrasjon</label>
+      </form>
+    </nav>
+
+    <div class="gallery">
+      <div class="gallery-item gallery-item-web gallery-item-featured">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/portfolio/gratisthemes.jpg" alt="Gratis themes"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="https://gratisthemes.kniffen.dev/" target="_blank">Gratis Themes</a></h4>
+          <p>En samling gratis WordPress-temaer jeg har designet opp gjennom årene.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item  gallery-item-software gallery-item-featured">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/portfolio/trucksim-telemetry.jpg" alt="TruckSim-Telemetry"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="https://tst.kniffen.dev" target="_blank">TruckSim-Telemetry</a></h4>
+          <p>Nodemodul for telemetridata fra Euro Truck Simulator 2 og American Truck Simulator.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-web gallery-item-featured">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/portfolio/desmo2020.jpg" alt="Desmo2020"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="https://brilliant-pearl.com" target="_blank">Desmo2020</a></h4>
+          <p>Desmo2020 er et spesialtilpasset WordPress-tema laget for Brilliant-Pearl, en oppdrett av hunderasen Whippet.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-web">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/portfolio/mbek2016.jpg" alt="MBEK2016"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="https://mbek.no" target="_blank">MBEK2016</a></h4>
+          <p>Spesialtilpasset WordPress-tema lager for motorklubben Mercedes-Benz Entusiaskklubb i 2016.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-software">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/portfolio/nonopunk.jpg" alt="NonoPunk"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="https://nonopunk.kniffen.dev/" target="_blank">NonoPunk</a></h4>
+          <p>NonoPunk er et Nonogram-spill laget med JavaScript.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-software">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/portfolio/nonogram-maker.png" alt="Nonogram-Maker"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="https://nonogram.kniffen.dev/" target="_blank">Nonogram-Maker</a></h4>
+          <p>Nonogram-Maker er et verktøy for å generere Nonogram spill i forskjellige størrelserer.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-art gallery-item-featured">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/art/mjolnir.jpg" alt="Mjolnir"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="/assets/art/mjolnir.jpg">Mjolnir plakat</a></h4>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-art">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/art/rottr.jpg" alt="Rise of the Tomb Raider"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="/assets/art/rottr.jpg">Rise of the Tomb Raider plakat</a></h4>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-art">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/art/c124.jpg" alt="C124"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="/assets/art/c124.jpg">Mercedes-Benz C124</a></h4>
+        </div>
+      </div>
+
+      <div class="gallery-item gallery-item-art">
+        <div class="gallery-item__thumbnail">
+          <img src="/assets/art/u.jpg" alt="u"/>
+        </div>
+        <div class="gallery-item__details">
+          <h4><a href="/assets/art/u.jpg">Mekanisk U</a></h4>
+        </div>
+      </div>
+
+    </div><!-- .gallery -->
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-item">
+      <h3>Ta kontakt</h3>
+      <p><b>E-post:</b> <a href="mailto:kennethlokoy@gmail.com">kennethlokoy@gmail.com</a></p>
+    </div>
+
+    <div class="footer-item">
+      <h3>Sosiale medier</h3>
+      <nav class="social-nav">
+        <a href="https://github.com/kniffen"><i class="fab fa-github"></i></a>
+        <a href="https://dribbble.com/Kniffen"><i class="fab fa-dribbble"></i></a>
+        <a href="https://www.linkedin.com/in/kenneth-lok%C3%B8y-918631b8/"><i class="fab fa-linkedin"></i></a>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    <p>© Lokøy Design 2022</p>
+  </div>
+
+</body>
+</html>
