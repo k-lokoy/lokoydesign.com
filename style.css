@@ -181,6 +181,7 @@ body > * {
 
 .social-nav {
   font-size: 1.2rem;
+  align-items: center;
 }
 
 .social-nav a:hover::after {
@@ -399,8 +400,12 @@ body > * {
 
   .additional-portfolio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1em;
+  }
+
+  .additional-portfolio h4 {
+    margin-block-end: 0;
   }
 
   .portfolio-item {
